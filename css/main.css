@@ -1,3 +1,7 @@
 .toDoList {
   color: black;
 }
+
+.crossOut {
+  text-decoration: line-through;
+}

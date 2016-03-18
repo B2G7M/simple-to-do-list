@@ -10,3 +10,8 @@ $('form').on('submit', function (e) {
   $list.append($li);
 
 });
+
+$('ul').on('click', 'li', function (f) {
+  $(this).toggleClass('crossOut');
+
+});
